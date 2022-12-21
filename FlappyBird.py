@@ -13,6 +13,7 @@ screen = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 
 # Load the images
 #Take in count that png specifications should be taken as '../../image.png'
+#In case that you want to use the predifined images, excecute this code as it is
 background_image = pygame.image.load("background.png")
 bird_image = pygame.image.load("bird.png") #Must be an empty background png, otherwise, a the image would be squared
 pipe_image = pygame.image.load("pipe.png")
